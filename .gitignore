@@ -1,0 +1,6 @@
+*.log
+*.info
+wheelchair-game-project/Library/
+wheelchair-game-project/Temp/
+Library/
+Temp/
