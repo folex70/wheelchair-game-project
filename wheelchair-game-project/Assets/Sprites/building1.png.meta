@@ -1,15 +1,12 @@
 fileFormatVersion: 2
-guid: b4b16ee568329f14f857c730303ac421
-timeCreated: 1516911145
+guid: 6a0671d5d626c8e4795dd00a5387fce7
+timeCreated: 1522099188
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: poste001_0
-    21300002: poste001_1
-    21300004: poste001_2
-    21300006: poste001_3
-    21300008: poste001_4
-    21300010: poste001_5
+    21300000: building1_0
+    21300002: building1_1
+    21300004: building1_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -96,35 +93,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: poste001_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 320
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_1
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 320
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_2
+      name: building1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,7 +107,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: poste001_3
+      name: building1_1
       rect:
         serializedVersion: 2
         x: 160
@@ -152,24 +121,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: poste001_4
+      name: building1_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_5
-      rect:
-        serializedVersion: 2
-        x: 160
         y: 0
         width: 160
         height: 160

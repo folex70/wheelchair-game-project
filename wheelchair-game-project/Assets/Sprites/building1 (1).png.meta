@@ -1,15 +1,12 @@
 fileFormatVersion: 2
-guid: b4b16ee568329f14f857c730303ac421
-timeCreated: 1516911145
+guid: 65c738ad9020ce340ad0a85f30b8f010
+timeCreated: 1522103683
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: poste001_0
-    21300002: poste001_1
-    21300004: poste001_2
-    21300006: poste001_3
-    21300008: poste001_4
-    21300010: poste001_5
+    21300000: building1 (1)_0
+    21300002: building1 (1)_1
+    21300004: building1 (1)_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -96,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: poste001_0
+      name: building1 (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 160
-        height: 160
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,13 +107,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: poste001_1
+      name: building1 (1)_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 320
         y: 320
-        width: 160
-        height: 160
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,55 +121,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: poste001_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_3
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_4
+      name: building1 (1)_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 160
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: poste001_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 160
-        height: 160
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
