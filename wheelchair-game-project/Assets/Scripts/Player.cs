@@ -35,10 +35,10 @@ public class Player : MonoBehaviour {
 		
 		tempo += Time.deltaTime;
 
-		#if UNITY_EDITOR_WIN
-			inputPC();
+		#if UNITY_ANDROID 
+			inputMobile();
 		#endif
-			inputMobile();	
+			inputPC();
 	}
 	
 	void inputPC(){
@@ -97,6 +97,7 @@ public class Player : MonoBehaviour {
 				stamina += 0.03f;
 			}
 		}
+		barraStamina.size = stamina/100;
 		//virar 
 		if(Input.GetAxis("Horizontal") != 0){
 			if(Input.GetAxis("Horizontal") > 0){
@@ -118,15 +119,11 @@ public class Player : MonoBehaviour {
 			
 			case "Obstacle":
 				vel = 40;				
-				Debug.Log("Obstacle vel"+vel);
-				Debug.Log("Obstacle forca"+forca);
 				audio.PlayOneShot(obstacleSound, 0.7F);
 			break;
 			
 			case "Floor":
 				vel = 150;
-				Debug.Log("Floor vel"+vel);
-				Debug.Log("Floor forca"+forca);
 				audio.PlayOneShot(floorSound, 0.7F);
 			break;
 			
